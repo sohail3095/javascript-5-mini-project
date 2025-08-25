@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    background-color: red;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.heading {
+    font-size: 32px;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    background: #ffffff;
+    width: fit-content;
+    margin: 0px auto;
+    border-radius: 8px;
+    border: 1px solid #322d2d;
+
+}
+
+.container div {
+    margin: 15px 0px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.currentColor {
+    font-size: 30px;
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #322d2d;
+
+}
+
+button {
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 0px;
+    cursor: pointer;
+    border: 1px solid #322d2d;
+
+}
+
+input {
+    padding: 8px;
+    border-radius: 8px;
+    border: 0px;
+    min-width: 400px;
+    font-size: 16px;
+    border: 1px solid #322d2d;
+
+}

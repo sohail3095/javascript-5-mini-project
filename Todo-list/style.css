@@ -1,0 +1,85 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    padding: 15px;
+}
+
+.heading {
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.input-rapper {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0px;
+}
+
+.input-rapper input {
+    padding: 8px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid #3c3636;
+    transition: 0.3s ease-in-out;
+}
+
+.input-rapper .addBtn {
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-color: #02ad7f;
+    border-radius: 4px;
+    border: 0px;
+}
+
+.input-rapper .addBtn:hover {
+    background-color: #038a66;
+}
+
+.todo-list {
+    list-style: none;
+}
+
+.todo-list li {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #dbfcf3;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.todo-list li:hover {
+    background-color: #76eccb;
+    transition: 0.3s ease-in-out;
+}
+
+.deleteTask {
+    font-size: 25px;
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+    color: red;
+    position: absolute;
+    right: 10px;
+}
